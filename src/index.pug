@@ -1,0 +1,15 @@
+- console.log('project: ', project);
+- console.log('content: ', content);
+- console.log('page: ', page);
+
+doctype html
+html(lang="en")
+  head
+    if project.buildTime
+      title Success!
+    else
+      title Oh no!
+
+  body
+    p #{content.message}
+    p #{project.buildTime}

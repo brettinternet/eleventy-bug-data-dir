@@ -1,0 +1,12 @@
+{
+  "name": "eleventy-bug",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --watch --config eleventy.config.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "pug": "^3.0.0"
+  }
+}
